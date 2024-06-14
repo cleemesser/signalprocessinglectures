@@ -39,7 +39,7 @@ sampling theorm
 #### Demonstration of importance of phase vs spectrum in EEG
 #### Other QEEG measures?
 
-30 mm/sec on pages 300mm weide (so 10s)
+30 mm/sec on pages 300mm wide (so 10s)
 
 #### Montages and montage derivations
 - linear operators
@@ -48,7 +48,14 @@ sampling theorm
 #### Quasi-static approximation
 - volume conduction
 
-
+#### feedback reflection on first talk
+- not a success
+- setup binder or collab so people can follow along
+- show examples of pitfalls of iltering (Q from
+- show phase lag and timing issues
+  - show differen tfilter results
+  - show zero-phase filter example
+  
 
 
 ## References

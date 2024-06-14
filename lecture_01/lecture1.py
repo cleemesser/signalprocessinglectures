@@ -98,5 +98,10 @@ w2  = thinkdsp.Wave(eeg5t3[sz2interval_sample[0]:sz2interval_sample[1]], framera
 w2.make_audio()
 
 # %%
+w3 = np.mean(eegneosz5.phys_signals[0:19, :], axis=0) # try averaging all the channels together
+
+# %%
+w3w = thinkdsp.Wave(w3, framerate=fs*70)
+w3w.make_audio()
 
 # %%
